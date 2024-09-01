@@ -70,7 +70,7 @@ const config = () => {
       alias: {
         webtorrent: fileURLToPath(
           new URL(
-            './node_modules/webtorrent/webtorrent.min.js',
+            './node_modules/webtorrent/dist/webtorrent.min.js',
             import.meta.url
           )
         ),
